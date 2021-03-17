@@ -3,27 +3,77 @@
 <head>
 <style>
     h1 {
-        padding: 20px underline;
+        padding: 20px ;
+        border: 5px solid blanchedalmond;
         /* padding-bottom: underline; */
         color: darkcyan;
         font-size: xx-large;
     }
     p {
-        font-style: x-large;
+        border : 4px solid black;
+        /* border-collapse: collapse; */
+        /* width: 100%; */
+        margin: auto;
     }
-    #awe4 {
-        background-color: darkgoldenrod;
+    pa {
+        font-style: x-large;
+        /* border-right : 2px solid black; */
+        /* margin: auto; */
+    }
+    .sub {
+        border : 3px solid black;
+        /* margin: auto; */
     }
 </style>
 </head>
 <body>
     <h1>Pra <input type= "text" id= "input1"></h1>
     <!-- <input type= "text" id= "input1"> -->
-    <p id="awe1">Lorem, ipsum dolor.</p>
-    <p id="awe2">Nobis, temporibus sapiente?</p>
-    <p id="awe3">Eius, odit ducimus.</p>
-    <p id="awe4">Consequuntur, placeat itaque.</p>
-    
+    <p>
+        <pa class= "sub">A</pa>
+        <pa>Praesentium, nulla et?</pa>
+        <pa>Porro, est fuga?</pa>
+        <pa>Nihil, nulla earum?</pa>
+    </p>
+    <p>
+        <pa class= "sub">B</pa>
+        <pa>Quaerat, rem hic?</pa>
+        <pa>Dolore, magni ad.</pa>
+        <pa>Inventore, incidunt numquam.</pa>
+    </p>
+    <p>
+        <pa class= "sub">C</pa>
+        <pa>Error, natus distinctio.</pa>
+        <pa>Eligendi, aliquid harum.</pa>
+        <pa>Commodi, saepe ipsum.</pa>
+    </p>
+    <p>
+        <pa class= "sub">D</pa>
+        <pa>Repellat, reprehenderit quaerat!</pa>
+        <pa>Porro, blanditiis inventore.</pa>
+        <pa>Asperiores, molestiae commodi.</pa>
+    </p>
+    <p>
+        <pa class= "sub">E</pa>
+        <pa>Deleniti, veniam laudantium.</pa>
+        <pa>Rem, veniam. Eveniet.</pa>
+        <pa>Dicta, laboriosam tenetur.</pa>
+    </p>
+
+    <!-- <p>
+        <p>A</p>
+        <p>B</p>
+        <p>C</p>
+        <p>D</p>
+        <p>E</p>
+    </p>
+    <pb>
+        <pa>Lorem, ipsum dolor.</pa>
+        <pa>Nobis, temporibus sapiente?</pa>
+        <pa>Eius, odit ducimus.</pa>
+        <pa>Consequuntur, placeat itaque.</pa>
+    </pb> -->
+
     <script>
      document.querySelector("p#awe1").style.color = "orange";
      document.querySelector("p#awe3").style.fontSize = "x-large";
