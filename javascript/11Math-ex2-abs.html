@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../css/all.min.js"></script>
+<style>
+</style>
+</head>
+<body>
+    <input type="text" id="input1">
+    <input type="text" id="input2">
+
+    <br>
+
+    <button onclick="diff()">두 값의 차</button>
+
+    <p>두 값의 차이는 <span id="result"></span>입니다.</p>
+
+<script>
+    
+    console.log(Math.abs(3));
+    console.log(Math.abs(0));
+    console.log(Math.abs(-3));
+    console.log(Math.abs(-10));
+
+    function diff() {
+        var a = document.getElementById("input1").value;
+        var b = document.getElementById("input2").value;
+        document.getElementByClassName("result")[0].innerHTML = Math.abs
+    }
+
+    
+
+</script>
+</body>
+</html>
